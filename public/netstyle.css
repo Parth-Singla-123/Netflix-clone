@@ -1,0 +1,74 @@
+body{
+    background-image: url(Assets/images/netflix\ background.jpg);
+    background-size:max(1600px,110vw);
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 115vh;
+    width:100%;
+    color: aliceblue;
+  }
+  main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.263),rgba(0, 0, 0, 0.815));
+    height: 115vh;
+    width:100%;
+  }
+
+    img{
+      position: relative;
+      left: 30px;
+    }
+    .sign{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 40px;
+      width: 400px;
+      background-color: rgba(0, 0, 0, 0.447);
+      margin: 75px auto;
+    }
+    
+    h1{
+        color: aliceblue!important;
+        font-weight: 1000!important;
+    }
+    .form-control{
+        width: 320px;
+        background-color: rgba(0, 0, 0, 0.495)!important;
+        color: aliceblue;
+        margin-top: 10px!important;
+        border-color: rgb(59, 59, 59);
+        border-width: 1.5px;
+    }
+    .floatingInput{
+        color: aliceblue;
+    }
+    .floatingInput:focus{
+      background-color: rgba(0, 0, 0, 0.495)!important;
+    }
+    .form-control:focus{
+      color: aliceblue;
+    }
+    
+    .btn-primary{
+        background-color: red;
+        border-color: black;
+    }
+    .text-body-secondary{
+        color: aliceblue!important;
+    }
+    .FlixLogo{
+        filter: invert(25%) sepia(99%) saturate(6014%) hue-rotate(355deg) brightness(80%) contrast(128%);
+        width: 150px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .wrong{
+      margin-top: 10px;
+      color: red;
+      text-align: center;
+      font-weight: 400;
+    }
+    .mt-5{
+      margin-top: 10px!important;
+    }
