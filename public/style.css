@@ -1,0 +1,318 @@
+@import url("https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    zoom: 1;
+}
+body{
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.start{
+    background-image: url(Assets/images/netflix\ background.jpg);
+    background-size:max(1600px,110vw);
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 115vh;
+    width:100%;
+}
+.start .box{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.263),rgba(0, 0, 0, 0.815));
+    height: 115vh;
+    width:100%;
+}
+section{
+    display: flex;
+    width: 76vw;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 1.59rem;
+    align-content: center;
+}
+
+.FlixLogo{
+    filter: invert(25%) sepia(99%) saturate(6014%) hue-rotate(355deg) brightness(80%) contrast(128%);
+    width: 100%;
+    height: auto;
+}
+.logo{
+    display: flex;
+    width: 150px;
+    height: auto;
+}
+.div{
+    display: flex;
+    gap: 22px;
+}
+select{
+    font-size: 1rem;
+    height: 33px;
+    width: 125px;
+    text-align: center;
+    background-color: rgba(16, 14, 14, 0.648);
+    color: whitesmoke;
+    border-radius: 0.275rem;
+    padding: 0.05rem;
+    font-weight: 300;
+}
+
+@keyframes hoverAnimation {
+    from{
+        
+    }
+    to{
+        background-color: rgb(175, 0, 0);
+    }
+}
+.signing{
+    padding-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 33px;
+    width: 80px;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    font-weight: 600;
+    background-color: rgb(222, 0, 0);
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+.signing:hover{
+    animation: hoverAnimation 0.25s 0.1s alternate forwards;
+}
+.wrapper{
+    margin-top:min(195px,30vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+    gap: 1.35rem;
+}
+.content{
+    text-align: center;
+}
+#unlimited{
+    font-size: 3.1rem;
+    font-weight:775;
+}
+#watch{
+    font-size: 1.6rem;
+}
+#ready{
+    font-size: 1.3rem;
+}
+.pack{
+    display: flex;
+    gap: 0.5rem;
+    margin: 15px auto;
+    width: 650px;
+}
+#start{
+    color: aliceblue;
+    background-color: rgb(222, 0, 0);
+    display: inline-flex;
+    padding-top: 0.58rem;
+    width: 210px;
+    height: 57px;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#start:hover{
+    animation: hoverAnimation 0.25s 0.1s forwards;
+}
+#email{
+    margin-left: 2rem;
+    width: 360px;
+    height: 57px;
+    font-size: 1.125rem;
+    background-color: rgba(10, 10, 10, 0.692);
+    border-radius: 0.25rem;
+    border: 1.5px solid rgb(73, 81, 73);
+    padding-left: 0.5rem;
+    color: white;
+}
+#email ::placeholder{
+    font-size: 0.1rem;
+    color: whitesmoke;
+}
+.linesep{
+    height: 7px;
+    background-color: rgba(43, 43, 43, 0.831);
+}
+
+
+.Enjoy{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 4.5rem auto 4.7rem;
+    justify-content: center;
+}
+#back{
+    position: relative;
+    width: 750px;
+    height: 100%;
+}
+#tv{
+    position: relative;
+    width: 35vw;
+    height: 100%;
+    z-index: 10;
+}
+#monitor{
+    position: absolute;
+    overflow: hidden;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    max-width: 77%;
+    max-height: 57%;
+    top: 19%;
+    left: 13%;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+}
+#first{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 1.2rem;
+}
+#second{
+    font-size: 1.5rem;
+}
+
+
+.download{
+    display: flex;
+    flex-direction: row;
+    margin: 4.5rem auto 4.7rem;
+    justify-content: center;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 0.25rem;
+    margin-right: 4rem;
+    color: whitesmoke;
+}
+#mob{
+    width: 37vw;
+    height: 100%;
+}
+#un{
+    font-size: 3rem;
+    font-weight: 800;
+}
+#dos{
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+}
+
+
+.watch{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 4.5rem auto 4.7rem;
+}
+.item3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+
+#div2{
+    position: relative;
+    width: 750px;
+    height: 100%;
+}
+#desktop{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: 1vw;
+    z-index: 10;
+}
+#saif{
+    position: absolute;
+    z-index: 8;
+    overflow: hidden;
+    max-width: 62%;
+    max-height: 50%;
+    top: 9%;
+    left: 22%;
+}
+video{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#one{
+    font-size: 3rem;
+    font-weight: 800;
+}
+#two{
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+
+
+.create{
+    display: flex;
+    flex-direction: row;
+    margin: 4.5rem auto 4.7rem;
+}
+.item4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+#children{
+    width: 38vw;
+    height: 100%;
+}
+#uni{
+    font-size: 3rem;
+    font-weight: 800;
+}
+#di{
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+
+.b-example-divider{
+    height: 50px;
+}
+.dot {
+    color: aliceblue;
+}
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: #fff !important;
+}
+@media screen and (max-width: 992px) {
+    .con{
+        flex-direction: column;
+    }
+    p{
+        font-size: 1.125rem;
+    }
+}
